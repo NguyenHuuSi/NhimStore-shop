@@ -1,0 +1,39 @@
+    ## Dựng source base
+- assets
+    - css
+    - fonts
+    - img
+- index.html
+## Reset CSS
+- nomalizer css cdn (https://cdnjs.com/libraries/normalize)
+    - Library Reset CSS
+## Dựng CSS base
+- google roboto fonts cdn (https://fonts.google.com/specimen/Roboto)
+## Dựng khung website
+## Navbar CSS
+- 
+## Nhúng Font-Icons
+- https://fontawesome.com/
+## Icons CSS
+## Header QR code CSS
+## Header notifiction CSS
+- https://jsfiddle.net/
+- When to user prefix css
+- caniuse.com
+## Base madal
+- Form login, register
+## Dựng khung search
+- Vertor image
+- https://htmlformatter.com/
+-- Fill color svg CSS
+## Find the history
+- CSS selecttor
+## Header cart badge
+## Header fix ui bugs
+-- Navbar bell-icon 
+-- Thin icon: https://themify.me/themify-icons 
+-- User menu separate
+## Dựng khung part list
+--  12 columns grid
+## Pagination: 
+this icon: https://www.flaticon.com/search?word=chevron%20right
