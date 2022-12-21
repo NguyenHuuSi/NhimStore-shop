@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>f8-shop</title>
+    <link rel="shortcut icon" href="./assets/img/favicon/Nhim_store.jfif" type="image/x-icon">
     <!-- Reset CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css">
 </head>
 <body>
     <div class="app">
         <header class="header">
             <div class="grid">
-                <!-- Header navbar -->
+                <!-- Header navbar PC-->
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-qr  header__navbar-item--separate">
@@ -142,6 +144,142 @@
                         </li>
                     </ul>
                 </nav>
+                <!-- Header navbar Moblie-->
+                <div class="header__navbar-btn">
+                    <i class="header__navbar-btn-icon ti-menu"></i>
+                </div>
+
+                <div class="header__navbar-overlay">
+                    <div class="header__navbar-mobile">
+                        
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--has-qr  header__navbar-item--separate">
+                                Vào cửa hàng của NhimStore
+                                <!-- Header QR code -->
+                                <div class="header__qr">
+                                    <img src="./assets/img/QR_code.png" alt="QR code" class="header__qr-img">
+                                    <div class="header__qr-apps">
+                                        <a href="" class="header__qr-link"><img src="./assets/img/App_Store.png" alt="App Store"
+                                                class="header__qr-download-img"></a>
+                                        <a href="" class="header__qr-link"><img src="./assets/img/Google_play.png" alt="Google play"
+                                                class="header__qr-download-img"></a>
+                                        <a href="" class="header__qr-link"><img src="./assets/img/App_gallery.png" alt="App gallery"
+                                                class="header__qr-download-img"></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item">
+                                <span class="header__navbar-title--no-pointer">Kết nối</span>
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--has-notify">
+                                <a href="" class="header__navbar-item-link">
+                                    <i class="header__navbar-icon far fa-bell"></i>
+                                    Thông báo
+                                </a>
+                                <div class="header__notify">
+                                    <header class="header__notify-header">
+                                        <h3>Thông báo mới nhận</h3>
+                                    </header>
+                                    <ul class="header__notify-list">
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./assets/img/clothes.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Chia sẻ nhận xét về sản phẩm</span>
+                                                    <span class="header__notify-description">
+                                                        Đơn hàng
+                                                        <b>221106C8R6RCE2</b>
+                                                        đã hoàn thành. Bạn hãy đánh giá sản phẩm trước ngày
+                                                        <b>13-12-2022</b>
+                                                        để nhận
+                                                        <b>200</b>
+                                                        xu và giúp người dùng khác hiểu hơn về sản phẩm nhé!
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./assets/img/cart_shopee.png" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Yêu cầu huỷ đơn hàng đã được chấp nhận</span>
+                                                    <span class="header__notify-description">
+                                                        Yêu cầu huỷ đơn hàng của bạn đã được chấp nhận. Đơn hàng
+                                                        <b>221109MAW3P6YU</b>
+                                                        đã được huỷ thành công. Shopee sẽ tiến
+                                                        hành hoàn số tiền
+                                                        <b>₫186.500</b>
+                                                        vào
+                                                        <b>Số dư TK Shopee</b>
+                                                        của bạn trong
+                                                        <b>24</b>
+                                                        <b>giờ</b>
+                                                        tới.
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./assets/img/yoga_carpet.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Chia sẻ nhận xét về sản phẩm</span>
+                                                    <span class="header__notify-description">
+                                                        Đơn hàng
+                                                        <b>221020T17WUSNY</b>
+                                                        đã hoàn thành. Bạn hãy đánh giá sản phẩm trước ngày
+                                                        <b>24-11-2022</b>
+                                                        để nhận
+                                                        <b>200</b>
+                                                        xu và giúp người dùng khác hiểu hơn về sản phẩm nhé!
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <footer class="header__notify-footer">
+                                        <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                    </footer>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="" class="header__navbar-item-link">
+                                    <i class="header__navbar-icon fa-regular fa-circle-question"></i>
+                                    Trợ giúp
+                                </a>
+                            </li>
+                            <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Register</li>
+                                                <li class="header__navbar-item header__navbar-item--strong header__navbar-item--has-login">Login</li> -->
+                            <li class="header__navbar-item header__navbar-user">
+                                <img src="./assets/img/my_face.png" alt="my_face.png" class="header__navbar-img">
+                                <span class="header__navbar-user-name">Nguyễn Hữu Sĩ</span>
+                                <ul class="header__navbar-user-menu">
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Tài khoản của tôi</a>
+                                    </li>
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Địa chỉ của tôi</a>
+                                    </li>
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Đơn mua</a>
+                                    </li>
+                                    <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                        <a href="">Đăng xuất</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <!-- Header with search -->
                 <div class="header-with-search">
                     <div class="header__logo">
@@ -426,7 +564,7 @@
 
                         <div class="home-product">
                             <div class="grid__row home-product-item-wrapper">
-                                <div class="grid__column-2-4 ">
+                                <div class="grid__column-2-4">
                                     <!-- Product item -->
                                     <a href="#" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/40e1393fc3ffa947fee0024aa131765d_tn);">
@@ -937,9 +1075,9 @@
         </footer>
     </div>
     <!-- Modal layout-->
-    <!-- <div class="madal">
-        <div class="madal__overlay"></div>
-        <div class="madal__body"> -->
+    <div class="modal js-modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
             <!-- Register form-->
             <!-- Authen Form -->
             <!-- <div class="auth-form">
@@ -991,7 +1129,7 @@
             </div> -->
             <!-- Login form-->
             <!-- Authen Form -->
-            <!-- <div class="auth-form">
+            <div class="auth-form">
                 <div class="auth-form__container">
                     <div class="auth-form__header">
                         <div class="auth-form__heading">Đăng nhập</div>
@@ -1036,7 +1174,7 @@
                 </div>
             </div>
         </div> 
-    </div> -->
-
+    </div>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
