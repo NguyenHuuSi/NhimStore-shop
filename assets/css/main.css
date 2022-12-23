@@ -1367,7 +1367,7 @@ i.home-product-item__like-icon-fill {
         right: 0;
         bottom: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: var(--white-color);
         z-index: 3;
     }
 
@@ -1378,6 +1378,5 @@ i.home-product-item__like-icon-fill {
         bottom: 0;
         width: 320px;
         max-width: 100%;
-        background-color: var(--black-color);
     }
 }
