@@ -10,12 +10,6 @@
     justify-content: space-between;
 }
 
-/* header navbar layout*/
-.header__navbar-btn,
-.header__navbar-overlay {
-    display: none;
-}
-
 .header__navbar-btn-icon {
     color: var(--white-color);
     font-size: 3rem;
@@ -1348,35 +1342,4 @@ i.home-product-item__like-icon-fill {
 
 /* mobile desplay  with width < 740px*/
 @media (max-width: 46.1875em) {
-    .header__navbar {
-        display: none;
-    }
-
-    /* header navbar layout*/
-    .header__navbar-btn {
-        display: block;
-        width: 28px;
-        height: 28px;
-        margin-right: 10px;
-    }
-    
-    .header__navbar-overlay {
-        display: block;
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-color: var(--white-color);
-        z-index: 3;
-    }
-
-    .header__navbar-mobile {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 320px;
-        max-width: 100%;
-    }
 }
