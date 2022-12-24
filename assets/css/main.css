@@ -10,15 +10,70 @@
     justify-content: space-between;
 }
 
-/* header navbar layout*/
-.header__navbar-btn,
-.header__navbar-overlay {
+/* header navbar mobile*/
+.nav__mobile-btn {
     display: none;
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
 }
 
-.header__navbar-btn-icon {
+.nav__mobile-btn-icon {
     color: var(--white-color);
     font-size: 3rem;
+}
+
+.nav__overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 3;
+    animation: fadeIn 0.2s linear;
+}
+
+.nav-input:checked ~ .nav__overlay {
+    display: block;
+}
+
+.nav-input:checked ~ .nav__mobile {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.nav__mobile {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: var(--white-color);
+    z-index: 4;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform linear 0.3s, opacity linear 0.3s;
+}
+
+.nav__mobile-close {
+    position: absolute;
+    right: 0;
+    padding: 8px 16px;
+    opacity: 0.8;
+    font-size: 1.8rem;
+}
+
+.nav__mobile-list {
+    margin-top: 24px;
+    list-style: none;
+}   
+.nav__mobile-link {
+    text-decoration: none;
+    color: #000;
 }
 
 .header__navbar-list {
@@ -1352,32 +1407,9 @@ i.home-product-item__like-icon-fill {
         display: none;
     }
 
-    /* header navbar layout*/
-    .header__navbar-btn {
+    /* header navbar mobile*/
+    .nav__mobile-btn,
+    .nav__mobile {
         display: block;
-        width: 28px;
-        height: 28px;
-        margin-right: 10px;
-    }
-    
-    .header__navbar-overlay {
-        display: block;
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.3);
-        z-index: 3;
-    }
-
-    .header__navbar-mobile {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 320px;
-        max-width: 100%;
-        background-color: var(--black-color);
     }
 }
