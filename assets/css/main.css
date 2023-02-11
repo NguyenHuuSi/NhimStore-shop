@@ -1390,18 +1390,26 @@ i.home-product-item__like-icon-fill {
     text-align: center;
 }
 
+/* PC low resolution with width >= 1024px and width < 1239px */
+@media (max-width: 63.9375em) {
+    .grid {
+        width: 984px;
+    }
+}
+
 /* Tablet and mobile desplay with width < 1024px*/
 @media (max-width: 63.9375em) {
     
 }
 
-
-/* Tablet desplay  with width < 1024px and width >= 740px */
+/* Tablet desplay and PC low resolution with width < 1024px and width >= 740px */
 @media (min-width: 46.25em) and (max-width: 63.9375em) {
-
+    .grid {
+        width: 644px;
+    }
 }
 
-/* mobile desplay  with width < 740px*/
+/* mobile desplay with width < 740px*/
 @media (max-width: 46.1875em) {
     .header__navbar {
         display: none;
