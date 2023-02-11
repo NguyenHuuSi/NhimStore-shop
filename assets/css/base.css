@@ -32,7 +32,7 @@ html {
     margin: 0 auto;
 }
 
-.gid__full-width {
+.grid__full-width {
     width: 100%;
 }
 
@@ -247,5 +247,4 @@ html {
 .pagination-item:last-child {
     margin: 0 0 0 15px;
 }
-
 
